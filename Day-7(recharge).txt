@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+#include<string.h>
+
+struct person{
+    long int number;
+    float amount;
+    
+};
+int main() {
+    struct person rec1;
+    printf("---record Details---\n");
+    rec1.number = 7338926432;
+    rec1.amount = 399.00;
+     printf("Number: %ld\n",rec1.number);
+    printf("Amount: %.2f\n",rec1.amount);
+     
+    
+    
+    return 0;
+}       
+
+
+Output:
+---record Details---
+Number: 7338926432
+Amount: 399.00
+
+
+
